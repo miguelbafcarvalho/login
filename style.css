@@ -5,19 +5,20 @@
 }
 
 
+html {
+  min-height: 100%;
+  background-image: url('images/jpwh.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('login/images/Jpwh.jpg');
-  min-height: 100%;  
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-color: #000;
 }
 
 body a {
